@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     font-family: 'Roboto', 'Lato', sans-serif;
     background-color: white;
     text-align: center;
@@ -16,11 +17,30 @@ body {
     text-transform: uppercase;
 }
 
+#menu {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    margin: 0;
+    padding: 0;
+    border: none;
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+
 #hero-image {
-    height: 600px;
+    height: 100%;
     width: 100%;
     margin: 0;
-    background: url(/assets/imgs/horse_27-wallpaper-1920x1080.jpg);
+    background: url(/assets/imgs/horse_27-wallpaper-1920x1080.jpg)  no-repeat center center;
 }
 
 #hero-outer {
@@ -147,4 +167,35 @@ hr {
 
 #times>h2 h3 {
     color: white;
+}
+
+footer>p {
+    color: whitesmoke;
+}
+
+a:visited {
+    text-decoration: none;
+    text-transform: lowercase;
+    font-weight: 900;
+}
+
+footer {
+    width: 100%;
+    background-color: cornflowerblue;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0;
+}
+
+@media screen and (min-width:900px) {
+    #times {
+        width: 50%;
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    #about {
+        flex-direction: column;
+        width: fit-content;
+    }
 }
