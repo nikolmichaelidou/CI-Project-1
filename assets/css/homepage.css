@@ -108,3 +108,43 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#times {
+    border: 3px gray solid;
+    background-image: url(../imgs/HD-wallpaper-horseback-riding-riders-equine-beautiful-horse-riding-animal-graphy-wide-screen.jpg);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+#times div {
+    color: white;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#times>h2 h3 {
+    color: white;
+}
