@@ -22,3 +22,89 @@ body {
     margin: 0;
     background: url(/assets/imgs/horse_27-wallpaper-1920x1080.jpg);
 }
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    animation-name: zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+iframe {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    display: block;
+    border: 3px seagreen solid;
+}
+
+#cover-text,
+h2 {
+    color: white;
+}
+
+#cover-text {
+    float: right;
+    font-size: 120%;
+    font-family: 'Roboto';
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align-last: left;
+    width: max-content;
+    height: min-content;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(64, 119, 201);
+    opacity: .7;
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+}
+
+#about {
+    height: 600px;
+    color: #3a3a3a;
+    font-family: 'Roboto';
+    text-shadow: black 2px;
+}
+
+#about-left {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#about-right {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#about-center {
+    width: 33%;
+    margin: 0 auto;
+}
+
+#about-center>img {
+    width: 60%;
+    border-radius: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
