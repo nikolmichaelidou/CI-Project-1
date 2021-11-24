@@ -3,3 +3,22 @@ body {
     background-color: white;
     text-align: center;
 }
+
+#logo {
+    float: left;
+    font-size: 60px;
+}
+
+#logo:hover {
+    font-family: 'Lato';
+    font-size: 80px;
+    color: lightskyblue;
+    text-transform: uppercase;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    margin: 0;
+    background: url(/assets/imgs/horse_27-wallpaper-1920x1080.jpg);
+}

@@ -22,5 +22,8 @@
    },
    "workbench.colorTheme": "Shades of Purple",
    "terminal.integrated.gpuAcceleration": "canvas",
-   "editor.defaultFormatter": "HookyQR.beautify"
+   "editor.defaultFormatter": "HookyQR.beautify",
+   "editor.formatOnPaste": true,
+   "editor.formatOnSave": true,
+   "editor.formatOnType": true
 }
