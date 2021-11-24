@@ -188,14 +188,29 @@ footer {
     margin: 0;
 }
 
-@media screen and (min-width:900px) {
+/* For mobile */
+@media screen and (max-width:600px) {
     #times {
+        min-height: fit-content;
         width: 50%;
-        flex-direction: column;
         padding-top: 10px;
+        font-size: 12px;
+    }
+    #about, #about-left, #about-right, #about-center {
+        flex-direction: column;
+        float: left;
+        width: fit-content;
+        width: 50%;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    #times {
+        width: 100%;
     }
     #about {
-        flex-direction: column;
-        width: fit-content;
+        width: 100%;
     }
+
 }
