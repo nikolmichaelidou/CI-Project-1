@@ -147,8 +147,6 @@ hr {
     background-image: url('../imgs/HD-wallpaper-horseback-riding-riders-equine-beautiful-horse-riding-animal-graphy-wide-screen.jpg');
     background-size: cover;
     background-position: center;
-    width: auto;
-    margin: auto;
     overflow: hidden;
 }
 
@@ -188,24 +186,17 @@ footer {
 }
 
 /* For mobile */
-@media screen and(max-width:600px) {
-    #times {
-        min-height: 600px;
-        width: 600px;
-        padding-top: 10px;
-        font-size: 12px;
+@media screen and (min-width:600px) {
+    body {
+        padding: 10px;
     }
 
-    #about,
-    #about-left,
-    #about-right,
-    #about-center {
-        flex-direction: column;
-        float: left;
-        width: fit-content;
-        width: 50%;
-        padding-bottom: 10px;
+    #times {
+        margin-top: 70px;
+        font-size: x-small;
     }
+
+     
 
     .hero-image,
     .cover-text {
@@ -213,14 +204,28 @@ footer {
         height: 600px;
         padding-top: 50px;
     }
+
     #logo {
-        font-size: 12px;
-        padding: auto;
+        font-size: smaller;
+        padding-bottom: 20px;
         float: left;
     }
+
+    #menu li {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        float: left;
+    }
+
+    #cover-text {
+        float: right;
+        width: min-content;
+        height: fit-content;
+    }
 }
+
 /* For desktop */
-@media screen and(min-width:1600px) {
+@media screen and (max-width:1200px) {
     #times {
         width: 100%;
     }
