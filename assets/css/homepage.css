@@ -27,12 +27,11 @@ body {
 }
 
 #menu li {
-    margin: 0;
+    margin: 0 30px 0 0;
     padding: 0;
     border: none;
     float: right;
     list-style-type: none;
-    margin-right: 30px;
 }
 
 
@@ -40,7 +39,7 @@ body {
     height: 100%;
     width: 100%;
     margin: 0;
-    background: url(/assets/imgs/horse_27-wallpaper-1920x1080.jpg)  no-repeat center center;
+    background: url('/assets/imgs/horse_27-wallpaper-1920x1080.jpg') no-repeat center center;
 }
 
 #hero-outer {
@@ -145,7 +144,7 @@ hr {
 
 #times {
     border: 3px gray solid;
-    background-image: url(../imgs/HD-wallpaper-horseback-riding-riders-equine-beautiful-horse-riding-animal-graphy-wide-screen.jpg);
+    background-image: url('../imgs/HD-wallpaper-horseback-riding-riders-equine-beautiful-horse-riding-animal-graphy-wide-screen.jpg');
     background-size: cover;
     background-position: center;
     width: auto;
@@ -155,7 +154,7 @@ hr {
 
 #times div {
     color: white;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0.6);
     width: 20%;
     height: 300px;
     float: left;
@@ -189,26 +188,36 @@ footer {
 }
 
 /* For mobile */
-@media screen and (max-width:600px) {
+@media screen and(max-width:600px) {
     #times {
         min-height: fit-content;
         width: 50%;
         padding-top: 10px;
         font-size: 12px;
     }
-    #about, #about-left, #about-right, #about-center {
+
+    #about,
+    #about-left,
+    #about-right,
+    #about-center {
         flex-direction: column;
         float: left;
         width: fit-content;
         width: 50%;
         padding-bottom: 10px;
     }
+
+    .hero-image {
+        width: 30%;
+        height: fit-content;
+    }
 }
 
-@media screen and (min-width:1600px) {
+@media screen and(min-width:1600px) {
     #times {
         width: 100%;
     }
+
     #about {
         width: 100%;
     }
