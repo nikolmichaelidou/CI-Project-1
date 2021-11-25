@@ -7,20 +7,20 @@ body {
 
 #logo {
     float: left;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 #logo:hover {
     font-family: 'Lato';
-    font-size: 80px;
+    font-size: 60px;
     color: lightskyblue;
     text-transform: uppercase;
 }
 
 #menu {
     font-size: 30px;
-    margin: 0;
-    padding: 0;
+    margin: 2px;
+    padding: 2px;
     border: none;
     font-family: 'Lato', sans-serif;
     letter-spacing: 4px;
@@ -190,8 +190,8 @@ footer {
 /* For mobile */
 @media screen and(max-width:600px) {
     #times {
-        min-height: fit-content;
-        width: 50%;
+        min-height: 600px;
+        width: 600px;
         padding-top: 10px;
         font-size: 12px;
     }
@@ -207,12 +207,19 @@ footer {
         padding-bottom: 10px;
     }
 
-    .hero-image {
-        width: 30%;
-        height: fit-content;
+    .hero-image,
+    .cover-text {
+        width: 600px;
+        height: 600px;
+        padding-top: 50px;
+    }
+    #logo {
+        font-size: 12px;
+        padding: auto;
+        float: left;
     }
 }
-
+/* For desktop */
 @media screen and(min-width:1600px) {
     #times {
         width: 100%;
