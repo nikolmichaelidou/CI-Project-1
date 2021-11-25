@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     font-family: 'Roboto', 'Lato', sans-serif;
     background-color: white;
     text-align: center;
@@ -39,7 +38,7 @@ body {
     height: 100%;
     width: 100%;
     margin: 0;
-    background: url('/assets/imgs/horse_27-wallpaper-1920x1080.jpg') no-repeat center center;
+    background: url("../imgs/hero-image-horse.jpg") no-repeat center center;
 }
 
 #hero-outer {
@@ -186,7 +185,7 @@ footer {
 }
 
 /* For mobile */
-@media screen and (min-width:600px) {
+@media screen and (max-width:700px) {
     body {
         padding: 10px;
     }
@@ -195,8 +194,6 @@ footer {
         margin-top: 70px;
         font-size: x-small;
     }
-
-     
 
     .hero-image,
     .cover-text {
@@ -222,16 +219,4 @@ footer {
         width: min-content;
         height: fit-content;
     }
-}
-
-/* For desktop */
-@media screen and (max-width:1200px) {
-    #times {
-        width: 100%;
-    }
-
-    #about {
-        width: 100%;
-    }
-
 }
