@@ -66,12 +66,29 @@ footer {
 .column {
     flex: 50%;
     padding: 4px;
-    margin-left: 30%;
 }
 
 img {
     margin-top: 3px;
     vertical-align: middle;
-    width: 53%;
+    width: 100%;
     padding: 0;
+}
+
+@media screen and(max-width: 600px) {
+    .column {
+        flex: 50%;
+        max-width: 80%;
+        height: 50%;
+    }
+    #logo {
+        font-size: 20px;
+    }
+}
+
+@media screen and(min-width: 1600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
