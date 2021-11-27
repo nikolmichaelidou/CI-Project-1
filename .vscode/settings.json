@@ -23,5 +23,8 @@
    "workbench.colorTheme": "Shades of Purple",
    "terminal.integrated.gpuAcceleration": "canvas",
    "editor.defaultFormatter": "HookyQR.beautify",
-   "editor.formatOnSave": true
+   "editor.formatOnSave": true,
+   "[markdown]": {
+      "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+   }
 }

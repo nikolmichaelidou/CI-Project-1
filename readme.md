@@ -2,7 +2,9 @@
 This website is targeted towards equastrians that enjoy trail riding and learning more horsemanship. In addition, the purpose of the website is to invite more people to equastrian center, based in Currium, CY, for coffee meet ups. 
 ![homepage](/assets/imgs/screenshots/homepage.jpg)
 <br>
-## Features
+<h2> Features </h2>
+<hr>
+
 - A flash notification welcomes the user to the homepage.
 - Navigation Bar 
     - Gallery button
@@ -12,5 +14,15 @@ This website is targeted towards equastrians that enjoy trail riding and learnin
     - Contact us
         - When the user presses on the text a notification will appear on their screen, with a phone number to call to call if they have any questions or to book an appoiment   
     - About us
-![about us](/assets/imgs/screenshots/about-center.jpg)
-        -  Brief information about the Harry. The man who opened the stables.        
+![about-us](/assets/imgs/screenshots/about-center.jpg)
+        -  Brief information about the Harry. The man who opened the stables.   
+<br>
+<h2>Testing</h2>
+<hr>
+
+- HTML Validator
+![html-test-img](/assets/imgs/screenshots/html-validator.png)    
+    - The HTML validator did not find any errors in the code  
+- CSS Validator
+![css-test-img](assets/imgs/screenshots/css-validator.png) 
+  - The CSS validator did not fina any erros in the code         
