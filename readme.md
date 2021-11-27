@@ -17,6 +17,7 @@ This website is targeted towards equastrians that enjoy trail riding and learnin
 ![about-us](/assets/imgs/screenshots/about-center.jpg)
         -  Brief information about the Harry. The man who opened the stables.
     - Meetup times
+  ![times-section](assets/imgs/screenshots/times-section.png)
       - This section shows the user what time the meet up start and how far the rides are.
       - This section will get updated often to ensure the user is up to date.
 
