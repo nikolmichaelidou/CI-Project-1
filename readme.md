@@ -47,3 +47,8 @@ This website is targeted towards equastrians that enjoy trail riding and learnin
   -   From the source section drop-down menu, selected the Main Branch
   -    Once the main branch was selected, the page was automatically refreshed with a detailed ribbon display to indicate the successful deployment.
        - Link: https://nikolmichaelidou.github.io/CI-Project-1/    
+
+<br>
+
+<h2>Credit</h2>
+<hr>
