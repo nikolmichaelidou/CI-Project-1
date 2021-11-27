@@ -5,7 +5,6 @@ This website is targeted towards equastrians that enjoy trail riding and learnin
 <h2> Features </h2>
 <hr>
 
-- A flash notification welcomes the user to the homepage.
 - Navigation Bar 
     - Gallery button
         - Takes the user to the gallery to see photos of our clients and horses.
@@ -17,12 +16,15 @@ This website is targeted towards equastrians that enjoy trail riding and learnin
 ![about-us](/assets/imgs/screenshots/about-center.jpg)
         -  Brief information about the Harry. The man who opened the stables.
     - Meetup times
-  ![times-section](assets/imgs/screenshots/times-section.png)
+![times-section](assets/imgs/screenshots/times-section.png)
       - This section shows the user what time the meet up start and how far the rides are.
       - This section will get updated often to ensure the user is up to date.
-
+    - Footer
+![](assets/imgs/screenshots/footer.png)
+       - When the user clicks on the footer, a pop-up notification shows up with a phone number, if the user wishes to find out more. 
 <h3>Feature Left to Implament</h3>
 <hr>
+
 - Sign up form
   - A form people can sign up to if they wish to receive notifications about their lessons or trail rides. 
 
