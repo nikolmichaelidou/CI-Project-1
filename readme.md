@@ -37,11 +37,6 @@ This website is targeted towards equastrians that enjoy trail riding and learnin
 ![css-test-img](assets/imgs/screenshots/css-validator.png) 
   - The CSS validator did not fina any erros in the code     
 
-<h3>Unfixed bugs</h3>
-
-![bug](assets/imgs/screenshots/github-pages-bug.png)
-Whenever I try to go the gallery, through the deployed site, it can't find the images and the CSS styles.
-
 <br>
 
 <h2>Deployment</h2>
