@@ -10,8 +10,6 @@ This website is targeted towards equastrians that enjoy trail riding and learnin
         - Takes the user to the gallery to see photos of our clients and horses.
     - Home button
         - Takes user back to the homepage when they are in the gallery.
-    - Contact us
-        - When the user presses on the text a notification will appear on their screen, with a phone number to call to call if they have any questions or to book an appoiment.
     - About us
 ![about-us](/assets/imgs/screenshots/about-center.jpg)
         -  Brief information about the Harry. The man who opened the stables.
@@ -20,10 +18,9 @@ This website is targeted towards equastrians that enjoy trail riding and learnin
       - This section shows the user what time the meet up start and how far the rides are.
       - This section will get updated often to ensure the user is up to date.
     - Footer
-![](assets/imgs/screenshots/footer.png)
+![footer](assets/imgs/screenshots/footer.png)
        - When the user clicks on the footer, a pop-up notification shows up with a phone number, if the user wishes to find out more. 
 <h3>Feature Left to Implament</h3>
-<hr>
 
 - Sign up form
   - A form people can sign up to if they wish to receive notifications about their lessons or trail rides. 
@@ -38,7 +35,13 @@ This website is targeted towards equastrians that enjoy trail riding and learnin
     - The HTML validator did not find any errors in the code  
 - CSS Validator
 ![css-test-img](assets/imgs/screenshots/css-validator.png) 
-  - The CSS validator did not fina any erros in the code         
+  - The CSS validator did not fina any erros in the code     
+
+<h3>Unfixed bugs</h3>
+
+![bug](assets/imgs/screenshots/github-pages-bug.png)
+Whenever I try to go the gallery, through the deployed site, it can't find the images and the CSS styles.
+
 <br>
 
 <h2>Deployment</h2>
@@ -54,3 +57,14 @@ This website is targeted towards equastrians that enjoy trail riding and learnin
 
 <h2>Credit</h2>
 <hr>
+
+In this section I will be refrencing my sources.
+
+<h3>Content</h3>
+
+- Icons were taken from FontAwesome.com
+- CSS media queries were taken from this tutorial: https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+
+<h3>Media</h3>
+
+- Photos in the gallery were sent to me, throught a facebook, about horse riding in Cyprus.
