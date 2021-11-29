@@ -41,7 +41,6 @@ Have test the website on multiple web browesers
   - Microsoft Edge
     - Works perfectly
 
-
 - HTML Validator
 ![html-test-img](/assets/imgs/screenshots/html-validator.png)    
     - The HTML validator did not find any errors in the code  
