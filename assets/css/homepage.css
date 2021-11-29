@@ -9,12 +9,6 @@ body {
     font-size: 40px;
 }
 
-#logo:hover {
-    font-family: 'Lato';
-    font-size: 60px;
-    color: lightskyblue;
-    text-transform: uppercase;
-}
 
 #menu {
     font-size: 30px;
@@ -165,10 +159,15 @@ hr {
 }
 
 footer>p {
-    color: whitesmoke;
+    color: black;
+}
+
+a {
+    text-decoration: none;
 }
 
 a:visited {
+    color: black;
     text-decoration: none;
     text-transform: lowercase;
     font-weight: 900;
@@ -219,6 +218,7 @@ footer {
         height: fit-content;
     }
 }
+
 @media screen and (max-width:1200px) {
     body {
         width: 100%;
