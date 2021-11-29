@@ -90,27 +90,14 @@ h2 {
 }
 
 #about {
-    height: 600px;
     color: #3a3a3a;
     font-family: 'Roboto';
 }
 
-#about-left {
-    padding-top: 30px;
+#about-left, #about-right, #about-center {
     width: 33%;
-    float: left;
 }
 
-#about-right {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-#about-center {
-    width: 33%;
-    margin: 0 auto;
-}
 
 #about-center>img {
     width: 60%;
@@ -126,12 +113,13 @@ hr {
     margin: 5px 0;
 }
 
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+
+.about-flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 #times {
