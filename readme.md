@@ -11,7 +11,11 @@ This website is targeted towards equastrians that enjoy trail riding and learnin
 
     - Home button
         - Takes user back to the homepage when they are in the gallery.
-    
+        - 
+    - Contact form
+![](assets/imgs/screenshots/gallery-contact-form.png) 
+      - Takes user to a form tehy can fill out with a message for us.
+  
     - About us
 ![about-us](/assets/imgs/screenshots/about-center.jpg)
         -  Brief information about the Harry. The man who opened the stables.
@@ -47,6 +51,16 @@ Have test the website on multiple web browesers
 - CSS Validator
 ![css-test-img](assets/imgs/screenshots/css-validator.png) 
   - The CSS validator did not fina any erros in the code     
+<br>
+
+<h3>Unfixed Bugs</h3>
+When it comes to responsivness they are a few bugs that I have been unable to fix.
+  1. the gallery and contact form buttons hide behind the hero-image when the screen is around 650px
+  2. the cover text and hero-image are cut
+
+![bug](assets/imgs/screenshots/Screenshot%20(55).png)
+![bug](assets/imgs/screenshots/Screenshot%20(56).png)
+![bug](assets/imgs/screenshots/Screenshot%20(57).png)
 
 <br>
 
