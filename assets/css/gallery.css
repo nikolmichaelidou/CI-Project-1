@@ -25,6 +25,10 @@ body {
     list-style-type: none;
 }
 
+a {
+    color: white;
+}
+
 a:visited {
     text-decoration: none;
     text-transform: lowercase;
@@ -33,7 +37,7 @@ a:visited {
 
 footer {
     width: 100%;
-    background-color: cornflowerblue;
+    background-color: #525252;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
