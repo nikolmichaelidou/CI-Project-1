@@ -70,6 +70,7 @@ In this section I will be refrencing my sources.
 
 - Icons were taken from FontAwesome.com
 - CSS media queries were taken from this tutorial: https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+- CSS contact forum was taken from this tutorial: https://www.w3schools.com/howto/howto_css_contact_form.asp
 
 <h3>Media</h3>
 
