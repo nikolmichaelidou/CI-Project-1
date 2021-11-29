@@ -33,6 +33,14 @@ This website is targeted towards equastrians that enjoy trail riding and learnin
 
 <h2>Testing</h2>
 <hr>
+Have test the website on multiple web browesers
+  - Chrome 
+    - Works perfectly
+  - Firefox
+    - Works perfectly
+  - Microsoft Edge
+    - Works perfectly
+
 
 - HTML Validator
 ![html-test-img](/assets/imgs/screenshots/html-validator.png)    
