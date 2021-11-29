@@ -11,7 +11,7 @@ This website is targeted towards equastrians that enjoy trail riding and learnin
 
     - Home button
         - Takes user back to the homepage when they are in the gallery.
-        - 
+
     - Contact form
 ![](assets/imgs/screenshots/gallery-contact-form.png) 
       - Takes user to a form tehy can fill out with a message for us.
@@ -19,6 +19,8 @@ This website is targeted towards equastrians that enjoy trail riding and learnin
     - About us
 ![about-us](/assets/imgs/screenshots/about-center.jpg)
         -  Brief information about the Harry. The man who opened the stables.
+        -  Some information about the location of the stables.
+        -  Brief information about we our goals are when it comes to teaching people horse riding.
     
     - Meetup times
 ![times-section](assets/imgs/screenshots/times-section.png)
