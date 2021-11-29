@@ -1,15 +1,48 @@
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px;  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; 
-    margin-bottom: 16px;
-    resize: vertical 
-  }
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Lato', sans-serif;
+}
 
-  /* A background color and some padding around the form */
+#logo {
+  font-size: 20px;
+}
+
+#menu {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 4px;
+}
+
+#menu li {
+  margin: 0 30px 0 0;
+  padding: 0;
+  border: none;
+  float: right;
+  list-style-type: none;
+}
+
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+/* A background color and some padding around the form */
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
