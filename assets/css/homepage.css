@@ -39,23 +39,8 @@ body {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    animation-name: zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    position: relative;
+    position: static;
 }
-
-@keyframes zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.1);
-    }
-}
-
-
 
 #cover-text,
 h2 {
@@ -86,13 +71,15 @@ h2 {
     font-family: 'Roboto';
 }
 
-#about-left, #about-right, #about-center {
+#about-left,
+#about-right,
+#about-center {
     width: 33%;
     color: #000000;
 }
 
 
-#about-center>img {
+#about-center > img {
     width: 60%;
     border-radius: 40%;
     display: block;
@@ -135,12 +122,13 @@ hr {
     box-sizing: border-box;
 }
 
-#times > h2, h3 {
+#times > h2,
+h3 {
     color: white;
     font-size: 14px;
 }
 
-footer>p {
+footer > p {
     color: black;
 }
 
@@ -165,27 +153,26 @@ footer {
     margin: 0;
 }
 
+/* For Mobile */
+@media screen and(min-width:350px) {
 
-
-@media screen and (min-width:350px) {
-    body {
-        padding: auto;
-    }
-
-    #times h2,h3 {
-        font-size: 10px;
-    }
-
-    .hero-image,
-    .cover-text {
+    .hero-image {
         width: 20%;
         height: 20%;
         padding-top: 50px;
-        margin-top: 50%;
+        position: relative;
+    }
+
+    .cover-text {
+        width: 30%;
+        height: 30%;
+        text-align: center;
+        position: relative;
+        font-size: 10px;
     }
 
     #logo {
-        font-size: smaller;
+        font-size: 10px;
         padding-bottom: 20px;
         float: left;
     }
@@ -193,6 +180,7 @@ footer {
     #menu li {
         margin-bottom: 20px;
         padding-bottom: 20px;
+        font-size: xx-small;
     }
 
     #cover-text {
@@ -200,5 +188,6 @@ footer {
         width: min-content;
         height: fit-content;
     }
-}
 
+
+}
