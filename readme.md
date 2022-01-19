@@ -56,13 +56,20 @@ Have test the website on multiple web browesers
 <br>
 
 <h3>Unfixed Bugs</h3>
-When it comes to responsivness they are a few bugs that I have been unable to fix.
-  1. the gallery and contact form buttons hide behind the hero-image when the screen is around 650px
-  2. the cover text and hero-image are cut
+When it comes to responsivness they are a few bugs that I have been unable to fix:
+   
+  - The cover text and hero-image are cut
+
 
 ![bug](assets/imgs/screenshots/Screenshot%20(55).png)
 ![bug](assets/imgs/screenshots/Screenshot%20(56).png)
 ![bug](assets/imgs/screenshots/Screenshot%20(57).png)
+
+<h3>Bugs & Fixes</h3>
+
+ - The gallery and contact form buttons hide behind the hero-image when the screen is around 650px
+   - Fixed by adding padding and re-adjusting media queries
+![bug](assets/imgs/screenshots/Screenshot%20(89).png)
 
 <br>
 
@@ -85,7 +92,9 @@ In this section I will be refrencing my sources.
 <h3>Content</h3>
 
 - Icons were taken from FontAwesome.com
-- CSS media queries were taken from this tutorial: https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+- CSS media queries were taken from this tutorial:                
+  - https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+  - From the Love Running walkthrough project from Code Institute 
 - CSS contact forum was taken from this tutorial: https://www.w3schools.com/howto/howto_css_contact_form.asp
 
 <h3>Media</h3>

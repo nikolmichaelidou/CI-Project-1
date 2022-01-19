@@ -61,7 +61,7 @@ h2 {
     margin: 0;
     background-color: rgb(64, 119, 201);
     opacity: .7;
-    bottom: 30px;
+    bottom: 300px;
     right: 150px;
     position: absolute;
 }
@@ -153,41 +153,41 @@ footer {
     margin: 0;
 }
 
-/* For Mobile */
-@media screen and(min-width:350px) {
+/* For medium screen sizes from 950px wide and down */
+@media screen and(max-width: 950px) {
 
-    .hero-image {
-        width: 20%;
-        height: 20%;
-        padding-top: 50px;
-        position: relative;
-    }
-
-    .cover-text {
-        width: 30%;
-        height: 30%;
-        text-align: center;
-        position: relative;
-        font-size: 10px;
-    }
-
-    #logo {
-        font-size: 10px;
-        padding-bottom: 20px;
+    #menu {
+        clear: left;
         float: left;
-    }
-
-    #menu li {
+        margin-left: 30px;
         margin-bottom: 20px;
-        padding-bottom: 20px;
-        font-size: xx-small;
+        line-height: 25px;
     }
 
     #cover-text {
-        float: right;
-        width: min-content;
-        height: fit-content;
+        left: 0;
     }
 
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
 
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
 }
