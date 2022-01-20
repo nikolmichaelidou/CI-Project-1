@@ -59,11 +59,11 @@ Have test the website on multiple web browesers
 When it comes to responsivness they are a few bugs that I have been unable to fix:
    
   - The cover text and hero-image are cut
+  - The time table gets squished at 400px or lower
 
 
-![bug](assets/imgs/screenshots/Screenshot%20(55).png)
-![bug](assets/imgs/screenshots/Screenshot%20(56).png)
-![bug](assets/imgs/screenshots/Screenshot%20(57).png)
+![bug](assets/imgs/screenshots/Screenshot%20(89).png)
+![bug](assets/imgs/screenshots/Screenshot%20(91).png)
 
 <h3>Bugs & Fixes</h3>
 
