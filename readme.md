@@ -65,6 +65,8 @@ Have test the website on multiple web browsers
     - The HTML validator did not find any errors in the code for index.html  
     - The validator showed one warning in gallery.html
 ![html-test](assests/imgs/../../assets/imgs/screenshots/Screenshot%20(94).png)
+  - The validator found errors in contact.html, that have been fixed
+![](assets/imgs/screenshots/Screenshot%20(95).png)
 - CSS Validator
 ![css-test-img](assets/imgs/screenshots/css-validator.png) 
   - The CSS validator did not fina any erros in the code     
