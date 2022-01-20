@@ -2,6 +2,18 @@
 This website is targeted towards equastrians that enjoy trail riding and learning more horsemanship. In addition, the purpose of the website is to invite more people to equastrian center, based in Currium, CY, for coffee meet ups. 
 ![homepage](/assets/imgs/screenshots/homepage.jpg)
 <br>
+<h2> Planning </h2>
+Before starting building the website, first I had to figure out:
+
+- The purpose of the website 
+  - Who is it for? Is it for a very specific group of people?
+
+ I decided to build the perfect equestrian center website. A place where fellow equestrians could also build a community.
+ Most equestrian websites are very plain looking.
+  - No photos
+  - Just a plain white background
+  - No small summary of the founder 
+
 <h2> Features </h2>
 <hr>
 
@@ -39,7 +51,8 @@ This website is targeted towards equastrians that enjoy trail riding and learnin
 
 <h2>Testing</h2>
 <hr>
-Have test the website on multiple web browesers
+Have test the website on multiple web browsers
+
   - Chrome 
     - Works perfectly
   - Firefox
@@ -47,9 +60,11 @@ Have test the website on multiple web browesers
   - Microsoft Edge
     - Works perfectly
 
-- HTML Validator
-![html-test-img](/assets/imgs/screenshots/html-validator.png)    
-    - The HTML validator did not find any errors in the code  
+- W3C HTML Validator
+![html-test-img](assets/imgs/screenshots/Screenshot%20(93).png)    
+    - The HTML validator did not find any errors in the code for index.html  
+    - The validator showed one warning in gallery.html
+![html-test](assests/imgs/../../assets/imgs/screenshots/Screenshot%20(94).png)
 - CSS Validator
 ![css-test-img](assets/imgs/screenshots/css-validator.png) 
   - The CSS validator did not fina any erros in the code     
@@ -89,6 +104,12 @@ When it comes to responsivness they are a few bugs that I have been unable to fi
 
 In this section I will be refrencing my sources.
 
+<h3>Languages Used</h3>
+Lnaguages used for this project were:
+
+- HTML
+- CSS
+  
 <h3>Content</h3>
 
 - Icons were taken from FontAwesome.com
