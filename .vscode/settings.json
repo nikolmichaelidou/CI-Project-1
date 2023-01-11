@@ -26,5 +26,8 @@
    "editor.formatOnSave": true,
    "[markdown]": {
       "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+   },
+   "[html]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
    }
 }
